@@ -1,0 +1,187 @@
+body {
+    background-image: white;
+}
+h1 {
+    color: black;
+    font-family: "Lato", sans-serif;
+    font-weight: 9000;
+    text-align: center;
+    font-size: 70px;
+    letter-spacing: 50px;
+    margin-bottom: 00px;
+}
+
+h2 {
+    padding-left: 1%; 
+    padding-right: 1%;
+}
+p {
+    font-size: 18px;
+}
+
+h1.index{
+    font-size: 70px;
+    letter-spacing: 20px;
+    margin-top:-10px;
+    color: white;
+    
+}
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #454545;
+    /*background-color: rgba(77,77,77,.75);*/
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 500;
+    text-align: center;
+    margin-left: -8px;
+    opacity: .95;
+}
+
+li.menu {
+    float: left;
+    font-family: "Lato", serif;
+}
+
+li a.menu {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 100%;
+    
+    
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+/*
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 1%;
+    padding: 0;
+    width: 200px;
+    background-color: #696969;
+    color: white;
+      position: fixed;
+
+}
+
+li a.menu {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+*/
+
+/*//////////////////////////////////////////////////////////////////////*/
+.active {
+    background-color: #111;
+    color: white;
+}
+
+
+section {
+ display: flex;
+}
+
+aside {
+ flex: 1
+ margin-left: 5%;
+ margin-right: 5%;
+}
+
+article {
+ flex: 4
+}
+
+div.main {
+    margin-left: 21%;
+    margin-right: 20%;
+    position: center;
+    background-color: ;
+    
+    position: absolute;
+    width: 60%;
+    top: 180px;
+    padding-bottom: 100px;
+}
+
+p {
+    padding-left: 1%; 
+    padding-right: 1%;
+}
+
+.footer{
+    position:fixed;
+    bottom:0;
+    width: 100%;
+    background-color: #8f8e8d;
+    opacity: .8;
+    margin-left: -8px;
+}
+
+.divindex{
+    position: center;
+    margin-left: 43%;
+    margin-top: 20%;
+}
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: white;
+    padding: 10px;
+    position: center;
+    padding-bottom: 100px;
+    
+}
+.grid-item {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0);
+  padding:10px;
+  font-size: 30px;
+  text-align: center;
+}
+div.portfolio {
+    margin-left: 16%;
+    margin-right: 20%;
+    position: center;
+    background-color: ;
+    height: 100%;
+    position: absolute;
+    width: 60%;
+    top: 200px;
+    padding-bottom: 400px;
+}
+div.porthead {
+    margin-left: 21%;
+    margin-right: 20%;
+    position: center;
+    background-color: ;
+    height: 100%;
+    position: absolute;
+    width: 60%;
+    top: 20px;
+    
+    margin-bottom: 10px;
+}
